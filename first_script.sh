@@ -1,4 +1,6 @@
 ############################
+Hi //
+
 #now I'm learning more on bash
 : ' 
 These are are normally added
