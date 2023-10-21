@@ -33,3 +33,18 @@ do
 	count=`expr $count + 1`
 	echo "This line is being printed for $count time!!"
 done
+
+
+###############################
+
+echo enter a number
+read num
+
+while [ $num -le 18 ]
+do
+        num=$(( num+1  ))
+        echo $num
+
+done
+
+################################
