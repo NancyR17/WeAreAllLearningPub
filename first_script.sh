@@ -26,15 +26,13 @@ else
 fi
 '
 ##############################
-count=0
+: 'count=0
 read numb
 while [ $count -lt $numb ]
 do
 	count=`expr $count + 1`
 	echo "This line is being printed for $count time!!"
 done
-
-
 ###############################
 
 echo enter a number
@@ -48,3 +46,10 @@ do
 done
 
 ################################
+'
+##############################
+
+for i in 1 2 3 4 5 6
+do
+	echo $(( i*2 ))
+done
