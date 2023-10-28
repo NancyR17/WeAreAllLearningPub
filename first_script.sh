@@ -1,4 +1,8 @@
 ############################
+Hi //
+
+Hello Devops Engineers //
+
 #now I'm learning more on bash
 : ' 
 These are are normally added
@@ -29,6 +33,19 @@ do
 	count=`expr $count + 1`
 	echo "This line is being printed for $count time!!"
 done
+###############################
+
+echo enter a number
+read num
+
+while [ $num -le 18 ]
+do
+        num=$(( num+1  ))
+        echo $num
+
+done
+
+################################
 '
 ##############################
 
@@ -36,5 +53,3 @@ for i in 1 2 3 4 5 6
 do
 	echo $(( i*2 ))
 done
-
-
